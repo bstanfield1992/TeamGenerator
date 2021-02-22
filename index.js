@@ -178,11 +178,11 @@ function compileTeam() {
             </div>
             <div class="card-bottom">
                 <p>Employee ID: ${finalTeamArray[i].id}</p>
-                <p>Email: <a href="mailto:${finalTeamArray[i].email}">${finalTeamArray[i].email}</a>></p>
+                <p>Email: <a href="mailto:${finalTeamArray[i].email}">${finalTeamArray[i].email}</a></p>
         `
         if (finalTeamArray[i].officeNumber) {
             object += `
-            <p>${finalTeamArray[i].officeNumber}</p>
+            <p>OfficeNumber: ${finalTeamArray[i].officeNumber}</p>
             `
         }
         if (finalTeamArray[i].github) {
