@@ -8,6 +8,7 @@ const Manager = require("./lib/manager");
 const Intern = require("./lib/intern");
 let finalTeamArray = [];
 
+// get inforomation about project name
 function startingPrompt() {
     inquirer.prompt([
         {
@@ -24,6 +25,8 @@ function startingPrompt() {
     
 }
 
+
+//get information about manager
 function addManager() {
     inquirer.prompt([
         {
@@ -55,6 +58,7 @@ function addManager() {
 
 }
 
+// get add other people to team or quit
 function addTeamMembers() {
     inquirer.prompt([
         {
@@ -81,6 +85,7 @@ function addTeamMembers() {
     });
 }
 
+// add engineer
 function addEngineer() {
     inquirer.prompt([
         {
@@ -113,6 +118,7 @@ function addEngineer() {
 
 };
 
+// add intern
 function addIntern() {
     inquirer.prompt([
         {
@@ -144,6 +150,7 @@ function addIntern() {
 
 };
 
+// put together HTML
 function compileTeam() {
     console.log("successfully created html")
 
