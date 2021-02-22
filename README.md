@@ -1,7 +1,7 @@
 
 <h1 align="center">Team Generator</h1>
 
-![Screenshot](./Screenshots/Test.png)
+![Screenshot](./Screenshots/Tests.png)
 
 ## Video
 https://drive.google.com/file/d/1uHPXWYYtTowkNNYvEE0IYJcwi2jfwAUB/view
